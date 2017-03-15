@@ -300,9 +300,4 @@ function tep_set_new_reg_type($user_id, $calendar_id, $new_status, $registered, 
 
 }
 
-
-
-
-
-
 ?>
