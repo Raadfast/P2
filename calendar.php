@@ -1,16 +1,5 @@
 <?php
 
-/*
-  CourseMS
-  https://sourceforge.net/projects/coursems
-
-  This version of the code is released under the GNU General Public License
-*/
-
-// PHP Calendar (version 2.3), written by Keith Devens
-// http://keithdevens.com/software/php_calendar
-// see example at http://keithdevens.com/weblog
-// License: http://keithdevens.com/software/license
 
 function tep_generate_calendar($year, $month, $selected_dates= array(), $days = array(), $day_name_length = 3, $month_href = NULL, $first_day = 0, $pn = array()){
 	$first_of_month = gmmktime(0,0,0,$month,1,$year);
